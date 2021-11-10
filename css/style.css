@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gideon Roman', 'cursive' ;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #1e1e1e;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Gideon Roman';
+    font-size: 35px;
+    font-weight: 600;
+}
+a, a:hover{
+    text-decoration: none;
+    color: none;
+}
+
+/* ----------header css start--------- */
+
+.head{
+    color: #7f7f7f;
+    background: #232425;
+    
+}
+.head h2 span{
+    font-size: 50px;
+}
+
+.head ul{
+    text-decoration: none;
+    text-align: center;
+}
+
+.head li{
+    display: inline;
+    padding: 78px 3px;
+    color: #7f7f7f;
+    font-size: 16px;
+    transition: 0.5s ease-in;
+}
+.head li:hover{
+    background-color: #e2494b;
+    color: #ffffff;
+}
+.head li a:hover{
+    color: #ffffff;
+}
+.head .nav-link{
+    color: #7f7f7f  !important;
+}
+.head .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+.head .navbar-light .navbar-brand {
+    color: #7f7f7f;
+    font-size: 35px;
+    font-weight: bold;
+}
+.head .navbar-light .navbar-brand span{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.head .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;}
+
+/* ----------header css end--------- */
+
+
+/* -------------banner css start--------------- */
+.banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+.banner .ban{
+    position: absolute;
+    top: 260px;
+    color: rgb(221, 221, 221);
+    
+}
+.banner .ban h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner .btn{
+    margin-top: 20px;
+    transition: .4s ease-in;
+}
+.banner .btn:hover{
+    background-color: transparent;
+    border: 1px solid #bb2d3b;
+}
+
+/* -------------banner css end--------------- */
+
+
+
+/* ----------------Card css start-------------- */
+
+.cardbox{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.card{
+    text-align: center;
+}
+.card-img-top{
+    height: 235px;
+}
+
+.card:hover .cardbox .card-title{
+	color: #bb2d3b;
+    
+}
+
+.card:hover .card-body .btn{
+	color: #bb2d3b;
+	background-color: transparent;
+	border-color: #bb2d3b;
+}
+/* ----------------Card css end-------------- */
+
+/* -----------------about-us--start----------------- */
+
+.about-us{
+    color: #7c7a7a;
+    margin: 25px 0px;
+}
+.about-us span{
+    color: #e2494b;
+}
+.abimg{
+    display: flex;
+}
+.abimg p{
+    text-align: left;
+    padding: 0px 15px;
+}
+.image-fluide{
+    margin-left: 10px;
+    height: 260px;
+}
+.about-us .btn{
+    margin-top: 30px;
+}
+
+/* -----------------about-us--end----------------- */
+
+.footer{
+    color: #7c7a7a;
+    margin: 40px 0px;
+}
+.aboimg img{
+    width: 100%;
+}
+.footer a{
+    color:#e2494b ;
+}
+.footer li{
+    list-style: none;
+}
+
+.footer li::before{
+    content: "\00BB";
+}
+.footer .contact input{
+    color: #7c7a7a;
+    margin: 8px;
+    
+    border-radius: 5px;
+}
+.footer .contact textarea{
+    color: #7c7a7a;
+    margin: 8px;
+  
+    border-radius: 5px;
+}
+.footer h5{
+    font-size: 22px;
+}
+.footer h6{
+    font-size: 19px;
+}
+.footer .copy{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+}
